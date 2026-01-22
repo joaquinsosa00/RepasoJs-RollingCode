@@ -8,12 +8,13 @@ document.writeln(`---------------------------</br>`);
 
 let nuevoArrray=[]
 
-for (let index = 0; index < numerosMayoresA10.length; index++) {
+for (let index = 0; index <= numerosMayoresA10.length; index++) {
 
     if (numerosMayoresA10[index]>10) {
-        nuevoArrray.push(index);
-    document.writeln(`${index} </br>`);
+        nuevoArrray.push(numerosMayoresA10[index]);
+    document.writeln(`${numerosMayoresA10[index]} </br>`);
     
 }
 }
 console.log(nuevoArrray);
+
